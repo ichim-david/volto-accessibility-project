@@ -7,9 +7,9 @@
             "@eeacms/volto-tabs-block": [
                 "addons/volto-tabs-block/src"
             ],
-          "@eeacms/volto-accessible-components": [
-            "addons/volto-accessible-components/src"
-          ]
+            "@eeacms/volto-accessible-components": [
+                "addons/volto-accessible-components/src"
+            ]
         },
         "baseUrl": "src"
     }
