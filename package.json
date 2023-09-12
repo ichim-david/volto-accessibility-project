@@ -17,7 +17,7 @@
     "stylelint": "stylelint 'theme/**/*.{css,scss,less}' 'src/**/*.{css,scss,less}'",
     "stylelint:overrides": "stylelint 'theme/**/*.overrides' 'src/**/*.overrides'",
     "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
-    "test": "RAZZLE_JEST_CONFIG=src/addons/volto-accordion-block/jest-addon.config.js razzle test --passWithNoTests",
+    "test": "RAZZLE_JEST_CONFIG=src/addons/volto-accessible-components/jest-addon.config.js razzle test --watchAll",
     "cypress:open": "make test-acceptance-addon ADDONPATH=src/addons/volto-accordion-block",
     "cypress:run": "make test-acceptance-addon-headless ADDONPATH=src/addons/volto-accordion-block",
     "start:prod": "NODE_ENV=production node build/server.js",
@@ -145,7 +145,8 @@
   },
   "dependencies": {
     "@eeacms/volto-accordion-block": "*",
-    "@plone/volto": "16.21.3"
+    "@plone/volto": "16.21.3",
+    "jest-axe": "^8.0.0"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.5",
