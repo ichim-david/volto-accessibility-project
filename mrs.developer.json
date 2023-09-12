@@ -1,0 +1,20 @@
+{
+  "volto-accordion-block": {
+    "package": "@eeacms/volto-accordion-block",
+    "url": "https://github.com/eea/volto-accordion-block.git",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-tabs-block": {
+    "package": "@eeacms/volto-tabs-block",
+    "url": "https://github.com/eea/volto-tabs-block.git",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-accessible-components": {
+    "package": "@eeacms/volto-accessible-components",
+    "url": "https://github.com/ichim-david/volto-accessible-components.git",
+    "path": "src",
+    "branch": "develop"
+  }
+}
